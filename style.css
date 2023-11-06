@@ -1,0 +1,76 @@
+*{padding: 0; margin:0; box-sizing: border-box;}
+body{
+    scroll-behavior: smooth;
+}
+.navbar-brand{
+    letter-spacing: 20px;
+}
+ h1{
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+h2{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+.icon i{
+    padding: 20px;
+    background-color: skyblue;
+    font-size: 30px;
+    color: white;
+    margin:10px 15px;
+    border-radius: 50%;
+}
+#p{
+    font-family: sans-serif;
+    line-height: 30px;
+}
+#services{
+    background-color:whitesmoke;
+
+}
+#services .card{
+    padding: 20px;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+.form-control-underlined {
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-radius: 0;
+    padding-left: 0;
+}
+
+.row1 {
+    background-color: #2b7a78;
+    color: #feffff;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+.text {
+color: #6474E5;
+font-family: Figtree;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.img {
+border-radius: 11px;
+background: #FFF;
+}
+.subimg {
+border-radius: 11px 11px 0px 0px;
+background: url(/home/deepesh/Downloads/sunset-1373171_640.jpeg), lightgray 50% / cover no-repeat;
+}
+.icon {
+border-radius: 118px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
+
